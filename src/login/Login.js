@@ -8,7 +8,6 @@ const Login = (props) => {
     window.localStorage.setItem('token', token)
     const navigate = useNavigate();
 
-
     useEffect(() => {
         navigate('/home')
     }, [])
