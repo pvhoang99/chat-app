@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    /*dan tat ca cac phan tu con tren 1 hang*/
+    /*can height cua thang con bang thang cha*/
+    height: 100vh;
+}
+
+.left-container {
+    padding-left: 20px;
+    width: 20%;
+}
+
+.left-container > .left-container-member-list > ul {
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.left-container > .left-container-member-list > ul > li {
+    padding: 80px 8px;
+}
+
+.left-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.left-container-member-list {
+    height: calc(100% - 120px);
+}
+
+.middle-container {
+    width: 60%;
+
+}
+
+.middle-container-header {
+    height: 80px;
+    background-color: brown;
+}
+
+.middle-container-body {
+    height: calc(100% - 140px);
+    background-color: darkcyan;
+    overflow-y: scroll;
+
+}
+
+.middle-container-insert {
+    height: 80px;
+    background-color: chartreuse;
+}
+
+.right-container {
+    width: 20%;
+}
+
+.chat-content {
+    display: flex;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.my-chat {
+    justify-content: end;
+}
+
+.middle-container-insert {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 20px;
+    justify-content: space-around;
+}
+
+.input {
+    width: 90%;
+    height: 50%;
+
+}
+
+.send {
+    width: 5%;
+    height: 50%;
+}

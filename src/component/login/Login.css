@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #e35869;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    height: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.container-login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login-content {
+    padding-top: 30px;
+    width: 700px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+}
+
+.input-username {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+
+}
+
+.input-username > label {
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.input-username > input {
+    width: 70%;
+    margin-right: 30px;
+}
+
+.input-password {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.input-password > label {
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.input-password > input {
+    width: 70%;
+    margin-right: 30px;
+}
+
+.input-password {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.button-login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-login {
+    width: 100px;
+    height: 40px;
+}
