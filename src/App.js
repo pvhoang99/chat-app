@@ -9,8 +9,8 @@ function App() {
     const {isLoggedIn} = useSelector(state => state.auth);
     useEffect(() => {
 
-        if (!isLoggedIn) {
-
+        if (!isLoggedIn && window.location.pathname !== '/login') {
+            window.location.href = "/login"
         }
 
     }, [])
